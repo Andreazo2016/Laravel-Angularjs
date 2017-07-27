@@ -1,10 +1,10 @@
 angular.module('myApp',['ngStorage', 'ngRoute', 'angular-loading-bar'])
     .constant('urls', {
-        BASE: '/localhost/laravel/public/api/',
+        BASE: '/localhost/Laravel-Angularjs/public/api/',
         BASE_API: ''
     })
     .config(function ($routeProvider, $httpProvider) {
-        var base = "/laravel/public"
+
         $routeProvider.
             when('/',{
                 templateUrl:'partiarls/home.html',

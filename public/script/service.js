@@ -1,5 +1,5 @@
 angular.module('myApp')
-    .factory('Auth', ['$http', '$localStorage','urls', function ($http, $localStorage,urls) {
+    .factory('Auth', ['$http', '$localStorage','urls', function ($http, $localStorage, urls) {
         function urlBase64Decode(str) {
             var output = str.replace('-', '+').replace('_', '/');
             switch (output.length % 4) {

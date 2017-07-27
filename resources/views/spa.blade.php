@@ -17,14 +17,14 @@
 
 
 
-<script src="/laravel/public/libs/jquery-3.2.1.min.js"></script>
-<script src="/laravel/public/libs/angular.min.js"></script>
-<script src="/laravel/public/libs/loading-bar.js"></script>
-<script src="/laravel/public/libs/ngStorage.min.js"></script>
-<script src ="/laravel/public/libs/angular-route.min.js"></script>
-<script src="/laravel/public/script/app.js"></script>-
-<script src="/laravel/public/script/controller.js"></script>
-<script src="/laravel/public/script/service.js"></script>
-<script src="/laravel/public/script/data.js"></script>
+<script src="libs/jquery-3.2.1.min.js"></script>
+<script src="libs/angular.min.js"></script>
+<script src="libs/loading-bar.js"></script>
+<script src="libs/ngStorage.min.js"></script>
+<script src ="libs/angular-route.min.js"></script>
+<script src="script/app.js"></script>-
+<script src="script/controller.js"></script>
+<script src="script/service.js"></script>
+<script src="script/data.js"></script>
 </body>
 </html>
