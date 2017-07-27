@@ -1,0 +1,22 @@
+<div class="container">
+    <h1 class="text-center">Cadastro</h1>
+    <div class="container">
+    <form class="form" style= "padding-left:300px ">
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" ng-model ="name" id ="name" name="name" placeholder="Digite o seu Nome" class="form-control" style="width: 70%">
+        </div>
+        <div class="form-group " >
+            <label for='email'>Email: </label>
+            <input type="email" id="email" name="email" ng-model ="email" placeholder="nameLogin@sufixo.com" class="form-control" style="width: 70%">
+        </div>
+        <div class="form-group " >
+            <label for='senha'>Senha: </label>
+            <input type="password" id="senha" name="senha" ng-model = "password" placeholder="Digite a senha" class="form-control" style="width: 70%">
+        </div>
+        <button class = "btn btn-primary" ng-click="signup()">Cadastra-se</button>
+    </form>
+
+    </div>
+
+</div>

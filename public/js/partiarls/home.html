@@ -1,0 +1,19 @@
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">JWT Angular example</a>
+</div>
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li data-ng-show="token"><a href="#!/ver">Restricted area</a></li>
+        <li data-ng-hide="token"><a href="#!/teste">teste</a></li>
+        <li data-ng-hide="token"><a href="#!/signin">Sign in</a></li>
+        <li data-ng-hide="token"><a href="#!/signup">Sign up</a></li>
+        <li data-ng-show="token"><a ng-click="logout()">Logout</a></li>
+    </ul>
+</div>
+
